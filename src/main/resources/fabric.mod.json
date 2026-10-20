@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "hudmenu",
+  "version": "${version}",
+  "name": "HUD Menu",
+  "description": "In-game menu with draggable HUD modules: CPS, keystrokes, ping, FPS, auto sprint, coordinates and potion effects. Each module has its own size, position and colors.",
+  "authors": [],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.hudmenu.HudMenuMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
